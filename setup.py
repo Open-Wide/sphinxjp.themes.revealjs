@@ -78,7 +78,7 @@ setup(
     keywords=['sphinx', 'reStructuredText', 'theme', 'presentation'],
     author='tell-k',
     author_email='ffk2005 at gmail dot com',
-    url='https://github.com/tell-k/sphinxjp.themes.revealjs',
+    url='https://github.com/Open-Wide/sphinxjp.themes.revealjs',
     license='MIT',
     namespace_packages=['sphinxjp', 'sphinxjp.themes'],
     packages=find_packages('src', exclude=["tests"]),

@@ -45,7 +45,7 @@ Master layout template for Sphinx themes.
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     {%- block htmltitle %}
-    <title>{{ title|striptags|e }}{{ titlesuffix }}</title>
+    <title>{{ project|striptags|e }}</title>
     {%- endblock %}
 
     {{ metatags }}
